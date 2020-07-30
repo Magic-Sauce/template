@@ -1,10 +1,9 @@
 export type RenderEventTemplateData = {
-  event_id: string,
-  event_url: string,
-  event_description?: string
-  event_image: string
-  event_title: string
-  event_substitle?: string
-  event_start_date?: Date
-  event_end_date?: Date
+  EVENT_URL: string,
+  EVENT_DESCRIPTION?: string
+  EVENT_IMAGE: string
+  EVENT_TITLE: string
+  EVENT_SUBTITLE?: string
+  EVENT_START_DATE?: Date
+  EVENT_END_DATE?: Date
 }
