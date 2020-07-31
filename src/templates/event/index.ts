@@ -1,8 +1,10 @@
 import * as Mustache from 'mustache';
 
-import { RenderEventTemplateData } from "./types";
+import { EventPartial } from "./types";
 
-export const renderEventTemplate = ({template, partials}:{template: string, partials: RenderEventTemplateData}) => {
+export const renderEventTemplate = ({template, partials}:{template: string, partials: EventPartial}) => {
   const output = Mustache.render(template, partials);
   return output;
 }
+
+export {EventPartial}

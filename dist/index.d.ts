@@ -1,7 +1,9 @@
+import { EventPartial } from './templates';
 declare const _default: {
     renderEventTemplate: ({ template, partials }: {
         template: string;
-        partials: import("./templates/event/types").RenderEventTemplateData;
+        partials: EventPartial;
     }) => string;
 };
 export default _default;
+export { EventPartial };

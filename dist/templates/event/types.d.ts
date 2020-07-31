@@ -1,4 +1,4 @@
-export declare type RenderEventTemplateData = {
+export declare type EventPartial = {
     EVENT_URL: string;
     EVENT_DESCRIPTION?: string;
     EVENT_IMAGE?: string;

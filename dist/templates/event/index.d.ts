@@ -1,5 +1,6 @@
-import { RenderEventTemplateData } from "./types";
+import { EventPartial } from "./types";
 export declare const renderEventTemplate: ({ template, partials }: {
     template: string;
-    partials: RenderEventTemplateData;
+    partials: EventPartial;
 }) => string;
+export { EventPartial };
