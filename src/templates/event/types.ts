@@ -1,6 +1,6 @@
 export type EventPartial = {
   EVENT_URL: string,
-  EVENT_DETAIL_URL: string,
+  EVENT_DETAIL_URL?: string,
   EVENT_DESCRIPTION?: string
   EVENT_IMAGE?: string
   EVENT_TITLE: string
