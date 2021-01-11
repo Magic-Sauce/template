@@ -1,12 +1,13 @@
 import {
   renderEventTemplate,
-  EventPartial
-} from './templates';
+  renderContentTemplate,
+  EventPartial,
+  ContentPartial,
+} from "./templates";
 
 export default {
-  renderEventTemplate
-}
+  renderEventTemplate,
+  renderContentTemplate,
+};
 
-export {
-  EventPartial
-}
+export { EventPartial, ContentPartial };

@@ -1,16 +1,16 @@
 import * as Mustache from "mustache";
 
-import { EventPartial } from "./types";
+import { ContentPartial } from "./types";
 
-export const renderEventTemplate = ({
+export const renderContentTemplate = ({
   template,
   partials,
 }: {
   template: string;
-  partials: EventPartial;
+  partials: ContentPartial;
 }) => {
   const output = Mustache.render(template, partials);
   return output;
 };
 
-export { EventPartial };
+export { ContentPartial };
