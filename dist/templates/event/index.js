@@ -1,8 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.renderEventTemplate = void 0;
+exports.renderContentTemplate = exports.renderEventTemplate = void 0;
 const Mustache = require("mustache");
-exports.renderEventTemplate = ({ template, partials }) => {
+exports.renderEventTemplate = ({ template, partials, }) => {
+    const output = Mustache.render(template, partials);
+    return output;
+};
+exports.renderContentTemplate = ({ template, partials, }) => {
     const output = Mustache.render(template, partials);
     return output;
 };
