@@ -1,7 +1,7 @@
 export type ContentPartial = {
   CONTENT_URL: string;
   CONTENT_TITLE: string;
-  CONTENT_DETAIL_URL?: string;
+  CONTENT_PAGE_URL?: string;
   CONTENT_DESCRIPTION?: string;
   CONTENT_IMAGE?: string;
   CONTENT_SUBTITLE?: string;
