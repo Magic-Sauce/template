@@ -12,4 +12,5 @@ export type ContentPartial = {
   USER_FIRST_NAME: string | null;
   USER_LAST_NAME: string | null;
   USER_FULL_NAME: string | null;
+  USER_REFERRAL_URL: string | null;
 };
