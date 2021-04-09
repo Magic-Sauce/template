@@ -8,7 +8,7 @@ export declare type ContentPartial = {
     CONTENT_START_DATE?: Date;
     CONTENT_TRIGGER_DATE?: Date;
     CONTENT_END_DATE?: Date;
-    CONTENT_PASSWORD: string;
+    CONTENT_PASSWORD?: string;
     USER_FIRST_NAME: string | null;
     USER_LAST_NAME: string | null;
     USER_FULL_NAME: string | null;
