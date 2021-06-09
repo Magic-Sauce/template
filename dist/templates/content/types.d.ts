@@ -1,6 +1,7 @@
 export declare type ContentPartial = {
     CONTENT_URL: string;
     CONTENT_TITLE: string;
+    CONTENT_BODY: string | null;
     CONTENT_PAGE_URL: string | null;
     CONTENT_REFERRAL_URL: string | null;
     CONTENT_IMAGE: string | null;
