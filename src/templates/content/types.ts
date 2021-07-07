@@ -6,6 +6,7 @@ export type ContentPartial = {
   CONTENT_REFERRAL_URL: string | null;
   CONTENT_IMAGE: string | null;
   CONTENT_SUBTITLE: string | null;
+  CONTENT_LOCATION: string | null;
   CONTENT_START_DATE?: Date;
   CONTENT_TRIGGER_DATE?: Date;
   CONTENT_END_DATE?: Date;
