@@ -9,8 +9,12 @@ export const renderContentTemplate = ({
   template: string;
   partials: ContentPartial;
 }) => {
-  const output = Mustache.render(template, partials);
-  return output;
+  try {
+    const output = Mustache.render(template, partials);
+    return output;
+  } catch (err) {
+    return template;
+  }
 };
 
 export { ContentPartial };
